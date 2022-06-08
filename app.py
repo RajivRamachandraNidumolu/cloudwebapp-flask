@@ -4,8 +4,7 @@ from azure.storage.blob import BlobServiceClient
 
 app = Flask(__name__)
 
-connect_str = 'DefaultEndpointsProtocol=https;AccountName=myadbdatabase;AccountKey=p/CyxSmpNNKT+3IYd311U5cv6iODt8ayOloQjYXOHeKh4pafAN1xcfinyNjD/I91leIcGERINSe3y08Pc5r6dA==;EndpointSuffix=core.windows.net'
-container_name = "myadbcontainer"
+connect_str = '######"
 
 # create a blob service client to interact with the storage account
 blob_service_client = BlobServiceClient.from_connection_string(
